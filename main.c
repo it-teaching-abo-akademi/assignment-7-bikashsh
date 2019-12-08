@@ -218,8 +218,6 @@ static void aperiodic_task()
 	sprintf(resp_time, "Response time of aperiodic task: %d\n", counter);
 	printf(resp_time);
 	fflush(stdout);
-	sprintf(resp_time, "Response time of aperiodic task: %d\n", counter);
-	printf(resp_time);
 	vTaskDelete(aperiodic_handle);
 
 }
